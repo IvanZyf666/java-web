@@ -12,7 +12,9 @@ public class TestServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //super.doGet(req, resp); 加上这行就报错了!
-        resp.getWriter().write("helloworld");
+
+        // 页面输出文本
+        // resp.getWriter().write("helloworld");
 
         // 通过地址栏访问，就是get请求
     }
